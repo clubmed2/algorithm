@@ -5,6 +5,7 @@ import collections
 def solution(numbers):
     primes = []
     answer = 0
+
     for i in range(1, len(numbers)+1):
         for j in list(permutations(numbers, i)):
             j = ''.join(list(j)).lstrip('0')

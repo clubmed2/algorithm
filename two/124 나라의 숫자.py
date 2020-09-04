@@ -1,14 +1,15 @@
 def solution(n):
-    a = ['4','1','2']
+    a = ['4', '1', '2']
     answer = ""
-    while( n > 0 ):
-        n, na = n//3, n%3
-        #나머지가 0일 경우 
-        if( na == 0 ):
+
+    while(n > 0):
+        n, na = n//3, n % 3
+        # 나머지가 0일 경우
+        if(na == 0):
             n -= 1
         answer = a[na] + answer
-        
     return answer
+
 
 '''
 새로 배운 점

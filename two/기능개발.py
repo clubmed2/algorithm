@@ -18,7 +18,7 @@ def solution(progresses, speeds):
     return answer
 
 
+# 새로 배운 점
 '''
-새로 배운 점
 1. while문과 pop을 동시에 쓸 경우 while문의 조건을 주의하자
 '''

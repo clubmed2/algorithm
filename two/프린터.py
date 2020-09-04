@@ -14,7 +14,7 @@ def solution(priorities, location):
                 return answer
 
 
+# 새로 배운 점
 '''
-새로 배운 점
 1. collections.deque를 사용하자
 '''

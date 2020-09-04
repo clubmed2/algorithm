@@ -21,7 +21,7 @@ def solution(numbers):
     return answer
 
 
+# 새로 배운 점
 '''
-새로 배운 점
 1. itertools.permutations, itertools.combinations
 '''

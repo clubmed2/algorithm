@@ -16,7 +16,7 @@ def solution(scoville, K):
         count += 1
 
 
+# 새로 배운 점
 '''
-새로 배운 점
 1. heapq
 '''

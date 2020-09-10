@@ -4,7 +4,6 @@ def compress(text, tok_len):
     cur_word = words[0]
     cur_cnt = 1
 
-    # 현재 문자와 다음 문자가 같은지를 비교할 때 2중 반복문을 쓰는 대신 리스트 원소를 하나씩 당기고 마지막에 공백을 추가하여 한 번의 반복문으로 검사한다.
     # [a,a,b,b,a,c,c,c]
     # [a,b,b,a,c,c,c,'']
     for a, b in zip(words, words[1:] + ['']):

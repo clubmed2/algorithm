@@ -42,5 +42,6 @@ def solution(expression):
 
 # 새로 배운 점
 '''
-1. re.split()
+1. abs는 그냥 사용할 수 있다.
+2. re.split()
 '''
